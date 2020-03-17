@@ -1,0 +1,281 @@
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.navbar-brand{
+		padding-top: 10px;
+	}
+	.navbar-brand img {
+		max-width: 190px;
+	}
+	.navbar.navbar-default.nav-fixed .navbar-brand img{
+		max-width: 190px;
+	}
+	.navbar-default .navbar-nav li{
+		padding: 0 8px;
+	}
+    .navbar-default .navbar-nav li a{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.navbar-right{
+		float: left !important;		
+	}
+    .navbar.navbar-default .container{
+        width: 100%;
+    }
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-left: 0px;
+	}    
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .nav.navbar-nav {
+        clear: both;
+        float: left;
+        margin: 0 0 0 -15px;
+        width: 100%;
+    }
+    .navbar-collapse{
+        background: #F9FAFC;
+    }
+	.navbar.navbar-default .navbar-nav li a {
+		color: #666;
+		padding: 11px 6px;
+	}
+
+	.navbar.navbar-default .navbar-nav li a:hover{
+		color: #F86A3A;
+		transition: color 0.3s;
+	}
+
+	.navbar.navbar-default .navbar-nav li a.active,
+	.navbar.navbar-default .navbar-nav li a:focus{
+		color: #F86A3A;
+	}
+	
+	.resFloat{
+		float: unset !important;
+	}
+	
+	
+	#section-quote {
+        padding-bottom: 100px
+    }
+   
+    #section-quote .container-quote {
+        margin-top: 70px
+    }
+    #section-quote .container-quote .quote {
+        width: 100%
+    }
+    #section-quote .container-quote .quote p {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    #section-quote .container-pe-quote {
+        width: 100%;
+        height: 200px;
+        bottom: 0px;
+        top: initial
+    }
+    #section-quote .container-pe-quote.left {
+        left: 30px
+    }
+	
+    #section-quote .container-pe-quote .pp-quote {
+        animation-name: none;
+        -webkit-animation-name: none
+    }
+    #section-quote .container-pe-quote .li-quote-1 {
+        left: -10px;
+        top: 15%;
+        height: 41px;
+        width: 41px
+    }
+    #section-quote .container-pe-quote .li-quote-2 {
+        height: 45px;
+        width: 45px;
+        left: 20%;
+        top: 30%
+    }
+    #section-quote .container-pe-quote .li-quote-3 {
+        height: 52px;
+        width: 52px;
+        left: 45%;
+        top: 25%
+    }
+    #section-quote .container-pe-quote .li-quote-4 {
+        height: 42px;
+        width: 42px;
+        left: 15%;
+        top: 65%
+    }
+    #section-quote .container-pe-quote .li-quote-5 {
+        height: 52px;
+        width: 52px;
+        left: 85%;
+        top: 20%
+    }
+    #section-quote .container-pe-quote .li-quote-6 {
+        height: 37px;
+        width: 37px;
+        left: 65%;
+        top: 50%
+    }
+	#section-quote .container-pe-quote .li-quote-7 {
+        left: -10px;
+        top: 15%;
+        height: 41px;
+        width: 41px
+    }
+    #section-quote .container-pe-quote .li-quote-8 {
+        height: 45px;
+        width: 45px;
+        left: 20%;
+        top: 30%
+    }
+    #section-quote .container-pe-quote .li-quote-9 {
+        height: 52px;
+        width: 52px;
+        left: 45%;
+        top: 25%
+    }
+    #section-quote .container-pe-quote .li-quote-10 {
+        height: 42px;
+        width: 42px;
+        left: 15%;
+        top: 65%
+    }
+    #section-quote .container-pe-quote .li-quote-11 {
+        height: 52px;
+        width: 52px;
+        left: 85%;
+        top: 20%
+    }
+    #section-quote .container-pe-quote .li-quote-13 {
+        height: 37px;
+        width: 37px;
+        left: 65%;
+        top: 50%
+    }
+}
+
+@media screen and (max-width: 767px){
+	#section-quote {
+        padding-bottom: 150px;
+    }
+   
+    #section-quote .container-quote {
+        margin-top: 70px
+    }
+    #section-quote .container-quote .quote {
+        width: 100%
+    }
+    #section-quote .container-quote .quote p {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    #section-quote .container-pe-quote {
+        width: 100%;
+        height: 200px;
+        bottom: 0px;
+        top: initial
+    }
+    #section-quote .container-pe-quote.left {
+        left: 30px
+    }
+	
+    #section-quote .container-pe-quote .pp-quote {
+        animation-name: none;
+        -webkit-animation-name: none
+    }
+    #section-quote .container-pe-quote .li-quote-1 {
+        left: 0px;
+        top: 15%;
+        height: 34px;
+        width: 34px
+    }
+    #section-quote .container-pe-quote .li-quote-2 {
+        height: 40px;
+        width: 40px;
+        left: 13%;
+        top: 36%
+    }
+    #section-quote .container-pe-quote .li-quote-3 {
+        height: 50px;
+        width: 50px;
+        left: 0%;
+        top: 60%
+    }
+    #section-quote .container-pe-quote .li-quote-4 {
+        height: 35px;
+        width: 35px;
+        left: 20%;
+        top: 65%
+    }
+    #section-quote .container-pe-quote .li-quote-5 {
+        height: 50px;
+        width: 50px;
+        left: 45%;
+        top: 20%
+    }
+    #section-quote .container-pe-quote .li-quote-6 {
+        height: 30px;
+        width: 30px;
+        left: 78%;
+        top: 42%
+    }
+	#section-quote .container-pe-quote .li-quote-7 {
+        left: 56%;
+        top: 44%;
+        height: 41px;
+        width: 41px
+    }
+    #section-quote .container-pe-quote .li-quote-8 {
+        height: 45px;
+        width: 45px;
+        left: 90%;
+        top: 60%
+    }
+    #section-quote .container-pe-quote .li-quote-9 {
+        height: 52px;
+        width: 52px;
+        left: 70%;
+        top: 53%
+    }
+    #section-quote .container-pe-quote .li-quote-10 {
+        height: 42px;
+        width: 42px;
+        left: 15%;
+        top: 35%
+    }
+    #section-quote .container-pe-quote .li-quote-11 {
+        height: 52px;
+        width: 52px;
+        left: 90%;
+        top: 10%
+    }
+    #section-quote .container-pe-quote .li-quote-13 {
+        height: 37px;
+        width: 37px;
+        left: 53%;
+        top: 15%
+    }
+}

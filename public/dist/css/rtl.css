@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Changa');
+
+
+.sidebar-menu li a .fa-angle-left,
+.sidebar-menu li .label, .sidebar-menu li .badge {
+	margin-top: -15px !important;
+}
+
+
+* {
+	font-family: 'Changa', sans-serif;
+}
+
